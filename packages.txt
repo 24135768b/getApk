@@ -1,0 +1,9 @@
+com.commbank.netbank
+org.westpac.bank
+au.com.nab.mobile
+nz.co.anz.ado
+com.moxo.pocketboq
+au.com.macquarie.banking
+com.defencebank.locationapp
+au.com.suncorp.marketplace
+com.bendigobank.mobile
