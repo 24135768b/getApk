@@ -5,3 +5,7 @@ getApks.py works
 getApks.sh does not work
 
 remember to add an apk directory at the root of this project
+
+pipenv install
+
+pipenv run python3 getApk.py
