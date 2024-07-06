@@ -8,7 +8,8 @@ package_file = 'packages.txt'
 dest_dir = './apks'
 
 # Create the destination directory if it doesn't exist
-subprocess.run(['mkdir', '-p', dest_dir], check=True)
+# subprocess.run(['mkdir', '-p', dest_dir], check=True) ## mac/linux
+os.makedirs(dest_dir, exist_ok=True) # windows
 
 # Read package names from the file
 with open(package_file, 'r') as file:
